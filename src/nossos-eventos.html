@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../public/bootstrap.css" />
+    <!-- CSS customizado -->
+    <link rel="stylesheet" href="../public/custom.css" />
+    <link rel="stylesheet" href="../public/nossos-eventos.css" />
+    <!-- Fonte Inter -->
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <title>Eventos</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-xl">
+        <a class="navbar-brand fs-2 fw-bolder" href="index.html">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <span class="navbar-toggle-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-medium">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Eventos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatos</a>
+            </li>
+          </ul>
+          <button
+            class="btn btn-primary fw-medium"
+            type="button"
+            aria-label="Fazer log-in"
+          >
+            Entrar
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section id="events" class="container-xl mx-auto my-4">
+      <h2 class="text-center mb-4">Nossos Eventos</h2>
+      <div class="descricao-dos-eventos">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+          aperiam quisquam doloribus delectus quo quia rem laudantium illum
+          necessitatibus ipsam repellat assumenda. Et, ullam sint. Delectus
+          iusto non libero! Quod.
+        </p>
+      </div>
+
+      <div class="categoria-de-eventos">
+        <!-- Construção do primeiro circulo de filtros. -->
+        <div class="grupo-de-circulos">
+          <div class="circulo circulo-um">
+            <img
+              class="imagem"
+              src="../public/assets/alagamentos.png"
+              alt="Icone de casa com ondas embaixo para representar enchentes."
+            />
+          </div>
+          <p class="titulo">Alagamentos</p>
+        </div>
+        <!-- Construção do segundo circulo de filtros. -->
+        <div class="grupo-de-circulos">
+          <div class="circulo circulo-dois">
+            <img
+              class="imagem"
+              src="../public/assets/deslizamento-de-terra.png"
+              alt="Icone de pedras deslizando em uma montanha."
+            />
+          </div>
+          <p class="titulo">Deslizamentos</p>
+        </div>
+        <!-- Construção do terceiro circulo de filtros. -->
+        <div class="grupo-de-circulos">
+          <div class="circulo circulo-tres">
+            <img
+              class="imagem"
+              src="../public/assets/enchente.png"
+              alt="Icone de chuva forte balançando as arvores."
+            />
+          </div>
+          <p class="titulo">Enchentes</p>
+        </div>
+        <!-- Construção do quarto circulo de filtros. -->
+        <div class="grupo-de-circulos">
+          <div class="circulo circulo-quatro">
+            <img
+              class="imagem"
+              src="../public/assets/incendios.png"
+              alt="Icone de Arvore pegando fogo."
+            />
+          </div>
+          <p class="titulo">Incêndios</p>
+        </div>
+        <!-- Construção do quinto circulo de filtros. -->
+        <div class="grupo-de-circulos">
+          <div class="circulo circulo-cinco">
+            <img
+              class="imagem"
+              src="../public/assets/seca.png"
+              alt="Icone de arvore seca, com um sol ardente ao fundo."
+            />
+          </div>
+          <p class="titulo">Secas</p>
+        </div>
+        <!-- Construção do sexto circulo de filtros. -->
+        <div class="grupo-de-circulos">
+          <div class="circulo circulo-seis">
+            <img
+              class="imagem"
+              src="../public/assets/tempestade.png"
+              alt="Icone de nuvens com raios e chuva forte."
+            />
+          </div>
+          <p class="titulo">Tempestade</p>
+        </div>
+      </div>
+
+      <div class="row row-cols-auto gap-4 justify-content-evenly">
+        <div class="event-item">
+          <a href="#">
+            <img
+              src="../public/assets/evento-placeholder.png"
+              alt="Fusce placerat purus vitae commodo"
+            />
+            <h3>Fusce placerat purus vitae commodo</h3>
+            <p>Ut sodales lectus ut mauris sollicitudin pharetra</p>
+          </a>
+          <div
+            class="event-amount justify-content-center justify-content-md-between flex-column flex-md-row"
+          >
+            <div>R$ 7000 / R$ 10.000</div>
+            <div>Enchentes</div>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Arrecadados"
+            aria-valuenow="70"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success"></div>
+          </div>
+          <a href="#" class="btn btn-primary">Doar</a>
+        </div>
+        <div class="event-item">
+          <a href="#">
+            <img
+              src="../public/assets/evento-placeholder.png"
+              alt="Fusce placerat purus vitae commodo"
+            />
+            <h3>Fusce placerat purus vitae commodo</h3>
+            <p>Ut sodales lectus ut mauris sollicitudin pharetra</p>
+          </a>
+          <div
+            class="event-amount justify-content-center justify-content-md-between flex-column flex-md-row"
+          >
+            <div>R$ 7000 / R$ 10.000</div>
+            <div>Enchentes</div>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Arrecadados"
+            aria-valuenow="70"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success"></div>
+          </div>
+          <a href="#" class="btn btn-primary">Doar</a>
+        </div>
+        <div class="event-item">
+          <a href="#">
+            <img
+              src="../public/assets/evento-placeholder.png"
+              alt="Fusce placerat purus vitae commodo"
+            />
+            <h3>Fusce placerat purus vitae commodo</h3>
+            <p>Ut sodales lectus ut mauris sollicitudin pharetra</p>
+          </a>
+          <div
+            class="event-amount justify-content-center justify-content-md-between flex-column flex-md-row"
+          >
+            <div>R$ 7000 / R$ 10.000</div>
+            <div>Enchentes</div>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Arrecadados"
+            aria-valuenow="70"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success"></div>
+          </div>
+          <a href="#" class="btn btn-primary">Doar</a>
+        </div>
+        <div class="event-item">
+          <a href="#">
+            <img
+              src="../public/assets/evento-placeholder.png"
+              alt="Fusce placerat purus vitae commodo"
+            />
+            <h3>Fusce placerat purus vitae commodo</h3>
+            <p>Ut sodales lectus ut mauris sollicitudin pharetra</p>
+          </a>
+          <div
+            class="event-amount justify-content-center justify-content-md-between flex-column flex-md-row"
+          >
+            <div>R$ 7000 / R$ 10.000</div>
+            <div>Enchentes</div>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Arrecadados"
+            aria-valuenow="70"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success"></div>
+          </div>
+          <a href="#" class="btn btn-primary">Doar</a>
+        </div>
+        <div class="event-item">
+          <a href="#">
+            <img
+              src="../public/assets/evento-placeholder.png"
+              alt="Fusce placerat purus vitae commodo"
+            />
+            <h3>Fusce placerat purus vitae commodo</h3>
+            <p>Ut sodales lectus ut mauris sollicitudin pharetra</p>
+          </a>
+          <div
+            class="event-amount justify-content-center justify-content-md-between flex-column flex-md-row"
+          >
+            <div>R$ 7000 / R$ 10.000</div>
+            <div>Enchentes</div>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Arrecadados"
+            aria-valuenow="70"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success"></div>
+          </div>
+          <a href="#" class="btn btn-primary">Doar</a>
+        </div>
+        <div class="event-item">
+          <a href="#">
+            <img
+              src="../public/assets/evento-placeholder.png"
+              alt="Fusce placerat purus vitae commodo"
+            />
+            <h3>Fusce placerat purus vitae commodo</h3>
+            <p>Ut sodales lectus ut mauris sollicitudin pharetra</p>
+          </a>
+          <div
+            class="event-amount justify-content-center justify-content-md-between flex-column flex-md-row"
+          >
+            <div>R$ 7000 / R$ 10.000</div>
+            <div>Enchentes</div>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Arrecadados"
+            aria-valuenow="70"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success"></div>
+          </div>
+          <a href="#" class="btn btn-primary">Doar</a>
+        </div>
+        <div class="event-item">
+          <a href="#">
+            <img
+              src="../public/assets/evento-placeholder.png"
+              alt="Fusce placerat purus vitae commodo"
+            />
+            <h3>Fusce placerat purus vitae commodo</h3>
+            <p>Ut sodales lectus ut mauris sollicitudin pharetra</p>
+          </a>
+          <div
+            class="event-amount justify-content-center justify-content-md-between flex-column flex-md-row"
+          >
+            <div>R$ 7000 / R$ 10.000</div>
+            <div>Enchentes</div>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Arrecadados"
+            aria-valuenow="70"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success"></div>
+          </div>
+          <a href="#" class="btn btn-primary">Doar</a>
+        </div>
+        <div class="event-item">
+          <a href="#">
+            <img
+              src="../public/assets/evento-placeholder.png"
+              alt="Fusce placerat purus vitae commodo"
+            />
+            <h3>Fusce placerat purus vitae commodo</h3>
+            <p>Ut sodales lectus ut mauris sollicitudin pharetra</p>
+          </a>
+          <div
+            class="event-amount justify-content-center justify-content-md-between flex-column flex-md-row"
+          >
+            <div>R$ 7000 / R$ 10.000</div>
+            <div>Enchentes</div>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Arrecadados"
+            aria-valuenow="70"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success"></div>
+          </div>
+          <a href="#" class="btn btn-primary">Doar</a>
+        </div>
+        <div class="event-item">
+          <a href="#">
+            <img
+              src="../public/assets/evento-placeholder.png"
+              alt="Fusce placerat purus vitae commodo"
+            />
+            <h3>Fusce placerat purus vitae commodo</h3>
+            <p>Ut sodales lectus ut mauris sollicitudin pharetra</p>
+          </a>
+          <div
+            class="event-amount justify-content-center justify-content-md-between flex-column flex-md-row"
+          >
+            <div>R$ 7000 / R$ 10.000</div>
+            <div>Enchentes</div>
+          </div>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Arrecadados"
+            aria-valuenow="70"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success"></div>
+          </div>
+          <a href="#" class="btn btn-primary">Doar</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

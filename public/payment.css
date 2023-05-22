@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+#box-title-payment {
+  margin-top: 5rem;
+  column-gap: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+#box-title-payment h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.fa-angle-left {
+  font-size: 1.75rem;
+}
+
+.box-content {
+  padding: 0 4rem;
+  column-gap: 3rem;
+  margin: 2rem 0;
+}
+
+.option {
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.option:hover {
+  box-shadow: rgba(255, 110, 21, 0.3) 0px 4px 12px;
+  cursor: pointer;
+}
+.option:hover .money {
+  color: #ff6e15;
+}
+
+.money {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.money-description {
+  margin-top: 1.25rem;
+  font-weight: 300;
+  color: #8c8c8c;
+}
+
+#box-payment-options {
+  display: flex;
+  column-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.title {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.tabs-style .nav-link {
+  color: #000;
+}
+
+.tabs-style .nav-link.active {
+  color: #ff6e15;
+  font-weight: 600;
+}
+
+/* .form-floating input.form-control {
+  height: auto;
+} */
+
+.form-floating input.form-control:focus {
+  border: #ff6e15 solid 0.5px;
+  box-shadow: none;
+}
+
+.label-float {
+  color: #8c8c8c;
+}
+.form-check {
+  padding: 0;
+}
+.checkbox-payment {
+  padding-left: 2.4rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.form-check-input {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  border: #8c8c8c solid 2px;
+}
+
+.form-check-input:checked {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.form-check-input:focus {
+  box-shadow: none;
+  /* border: none; */
+  cursor: pointer;
+}
+
+.resume {
+  border-top: #8c8c8c 1px solid;
+  padding-top: 0.5rem;
+  margin: 3rem 0 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.security {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.fa-user-shield {
+  font-size: 20px;
+  color: #8c8c8c;
+}
+
+.total {
+  color: #ff6e15;
+  font-weight: 600;
+}
+
+.box-button {
+  display: flex;
+  justify-content: end;
+}
+
+.box-button button {
+  border: none;
+  width: 15rem;
+  background-color: #ff6e15;
+  color: #ffffff;
+  padding: 1rem 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+}
+.box-button button:hover {
+  background-color: #da5a0a;
+}
+
+@media (max-width: 768px) {
+  .box-button button {
+    width: 100%;
+  }
+}
+
+/*
+    Rodapé
+*/
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
